@@ -5,7 +5,7 @@ System Software &amp; Compiler Design Lab Programs | 15CSL67 | VTU 6h Sem
 
 * **Program 1**
 **a.** Write a LEX program to recognize valid arithmetic
-expression. Identifiers in the expression could be only integers and operators could be + and *. Count the identifiers &amp; operators present and print them separately.
+expression. Identifiers in the expression could be only integers and operators could be + and *. Count the identifiers &amp; operators present and print them separately.\
 **b.** Write YACC program to evaluate arithmetic expression involving operators: +, -, *, and /.
 
 * **Program 2**
@@ -30,7 +30,7 @@ A = T3
 
 * **Program 6**
 **a.** Write a LEX program to eliminate comment lines in a C
-program and copy the resulting program into a separate file.
+program and copy the resulting program into a separate file.\
 **b.** Write YACC program to recognize valid identifier, operators and keywords in the given text (C program) file.
 
 * **Program 7**
