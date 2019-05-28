@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<string.h>
-int k=0,z=0,i=0,j=0,c=0;
-char a[16],ac[20],stk[15],act[10];
+int i=0,j=0,k=0,z=0,c=0;
+char a[20],ac[20],stk[20],act[20];
 void check();
 void main()
 {
-  puts("GRAMMAR is E->E+E \n E->E*E \n E->(E) \n E->id");
-  puts("Enter input string ");
-  gets(a);
-  c=strlen(a);
-  strcpy(act,"SHIFT->");
-  puts("\n stack \t input    \t action");
-  for(k=0,i=0; j<c; k++,i++,j++)
-  {
-if(a[j]=='i' && a[j+1]=='d')
+puts("GRAMMAR is E->E+E \n E->E*E \n E->(E) \n E->id");
+puts("Enter input string ");
+gets(a);
+c=strlen(a);
+strcpy(act,"SHIFT->");
+puts("\n stack \t input    \t action");
+for(k=0,i=0; j<c; i++,j++,k++)
+{
+if(a[j]=='i'&& a[j+1]=='d')
    {
 	stk[i]=a[j];
 	stk[i+1]=a[j+1];
@@ -32,7 +32,6 @@ else
 	check();
    }
  }
-
 }
 void check()
 {
