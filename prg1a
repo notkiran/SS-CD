@@ -10,7 +10,7 @@ int v=0,op=0,id=0,flag=0;
 ";" {flag=1;}
 .|\n {;}
 %%
-main()
+int main()
 {
 printf("\n Enter the expression \n");
 yylex();
@@ -19,7 +19,7 @@ printf("\n Expression is Valid\n");
 else
 printf("\n Expression is Invalid\n");
 printf("\n The number of identifiers are: %d \n",id);
-printf("\n The number ofoperators are: %d \n",op);
+printf("\n The number of operators are: %d \n",op);
 int yywrap()
 {
 return 1;
